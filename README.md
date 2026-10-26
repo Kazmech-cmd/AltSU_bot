@@ -50,24 +50,6 @@ git status                                       # убедитесь, что в
 git commit -m "Первый коммит"
 ```
 
-Дальше создайте на github.com **пустой** репозиторий (без README) и выполните команды, которые GitHub покажет:
-`git remote add origin <ссылка>`, `git branch -M main`, `git push -u origin main`.
-
-Личные данные (ФИО, телефон, почта) впишите по одному в строке в `scripts/deny_words.local.txt`
-(образец: `scripts/deny_words.example.txt`): если такое слово встретится в проекте, коммит остановится.
-Файл `*.local.txt` в git не попадает. Ложное срабатывание можно погасить комментарием `# secrets-ok` в нужной строке.
-
-**Почта в коммитах.** Адрес из `git config user.email` виден всем в истории публичного репозитория.
-Используйте приватный адрес GitHub вида `12345+имя@users.noreply.github.com` (он есть в настройках GitHub, раздел Emails):
-
-```bash
-git config user.name "Имя"
-git config user.email "12345+имя@users.noreply.github.com"
-```
-
-**Если токен всё же попал в коммит**, удаление файла не поможет: он остаётся в истории. Считайте его скомпрометированным и
-выпустите новый (токен бота: @BotFather, `/revoke`; ключ Gemini: удалить и создать заново в AI Studio).
-
 ## Тесты
 
 ```bash
