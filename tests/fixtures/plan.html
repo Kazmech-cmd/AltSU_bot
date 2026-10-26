@@ -1,0 +1,648 @@
+<!-- ТЕСТОВАЯ СТРАНИЦА: структура ответа кабинета (POST /ajax/) после работы его скриптов, данные выдуманные -->
+<div class="toolbar-tabs" data-toolbar="plan">
+    <span class="toolbar-tab selected" data-tab="plan-subjects">Учебный план</span>
+    <span class="toolbar-tab" data-tab="plan-journal">Посещаемость занятий</span>
+</div>
+
+<div data-toolbar="plan" data-tab="plan-subjects">
+
+<div class="toolbar-tabs decanat-student_plan-semesters">
+    <span>Курс:</span>    <span class="toolbar-tab" data-plan-course="1" data-tab="tab-semester-1">1</span>
+    <span class="toolbar-tab selected" data-plan-course="2" data-tab="tab-semester-2">2</span>
+    <span class="toolbar-tab" data-plan-course="3" data-tab="tab-semester-3">3</span>
+</div>
+
+<div class="tool-tab-semester" data-tab="tab-semester-1">
+    <div class="table-wrap">
+        <div class="toolbar_2 padding">
+            <table>
+                <tr>
+                    <td>Учебный год: <b style="font-size:9pt">2025-2026</b></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="decanat-summary_controls"><div class="decanat-summary_controls-total"><span>Всего дисциплин с промежуточной аттестацией</span><span>11</span></div><div class="decanat-summary_controls-passed"><span>Сдано</span><span>9</span></div></div>
+    <div class="table-wrap">
+    <table class="decanat-student-plan list_table list_table_line" cellspacing="0">
+        <thead>
+            <tr>
+                <th rowspan="2" class="list_table_h_n table-wrap-sticky">№</th>
+                <th rowspan="2" class="list_table_h_1 break-word">Индекс</th>
+                <th rowspan="2" class="list_table_h_1 break-word">Дисциплина</th>
+                <th colspan="5" class="list_table_h_1 break-word">Часы</th>
+                <th rowspan="2" class="list_table_h_2 break-word">Вид контроля</th>
+                <th rowspan="2" class="list_table_h_2 break-word">Оценка</th>
+                <th rowspan="2" class="list_table_h_2 break-word">Дата</th>
+                <th rowspan="2" class="list_table_h_2 break-word">Преподаватель</th>
+            </tr>
+            <tr>
+                <th class="list_table_h_2 break-word">Лек.</th><th class="list_table_h_2 break-word">Пр.</th>
+                <th class="list_table_h_2 break-word">Лаб.</th><th class="list_table_h_2 break-word">Самост.</th>
+                <th class="list_table_h_2 break-word">Итого</th>
+            </tr>
+        </thead>
+        <tbody
+<tr>
+<td class="list_table_cell_1" colspan="12"><b class="table-wrap-sticky">Семестр 1</b></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">1</td>
+<td class="list_table_cell_2">Б1.О</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span>Русский язык и культура речи</span><span style="width:24px;display:inline-block;"></span></div></td>
+<td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_1 align_center"></td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Экзамен</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Хор</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >24.12.2025</div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span>Петрова Анна Ивановна</span><span class="t_small_x t_gray_light_x">профессор (экзамен)</span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">2</td>
+<td class="list_table_cell_2">Б1.О</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span>Математика</span><span style="width:24px;display:inline-block;"></span></div></td>
+<td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_1 align_center"></td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Экзамен</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Отл</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >16.12.2025</div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">3</td>
+<td class="list_table_cell_2">Б1.О</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span>Физическая культура и спорт</span><span style="width:24px;display:inline-block;"></span></div></td>
+<td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_1 align_center"></td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зач</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >12.09.2025</div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">7</td>
+<td class="list_table_cell_2">Б1.О.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/7/">История России</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">40</td><td class="list_table_cell_2 align_center">12</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_1 align_center">52</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+                    </td>
+<td class="list_table_cell_2 align_center decanat-controls">
+                    </td>
+<td class="list_table_cell_2 align_center decanat-controls">
+                    </td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">8</td>
+<td class="list_table_cell_2">Б1.О.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/8/">Основы программирования</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">18</td><td class="list_table_cell_2 align_center">36</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">18</td><td class="list_table_cell_1 align_center">72</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span>Иванов Иван Иванович</span><span class="t_small_x t_gray_light_x">ассистент (пр) (зачет)</span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">9</td>
+<td class="list_table_cell_2">Б1.О.04</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/9/">Дискретная математика</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">16</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">26</td><td class="list_table_cell_2 align_center">66</td><td class="list_table_cell_1 align_center">108</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зач</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >16.12.2025</div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr><td class="list_table_row_num t_left c_black" colspan="12">Факультативные дисциплины</td></tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">12</td>
+<td class="list_table_cell_2">ФТД.В</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/12/">Введение в профессию (адаптивная дисциплина для лиц с ограниченными возможностями здоровья)</a></span><span class="choice-tag" title="Выбрано приоритетом 1">В1</span><span style="width:24px;display:inline-block;"></span></div></td>
+<td class="list_table_cell_2 align_center">6</td><td class="list_table_cell_2 align_center">6</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">60</td><td class="list_table_cell_1 align_center">72</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr><td class="list_table_h_2" colspan="3" style="text-align:left">Итого в 1 семестре</td><td class="list_table_h_2 align_center">116</td><td class="list_table_h_2 align_center">96</td><td class="list_table_h_2 align_center">26</td><td class="list_table_h_2 align_center">255</td><td class="list_table_h_2 align_center">493</td><td class="list_table_h_2" colspan="4" style="text-align:left"></td></tr>
+<tr>
+<td class="list_table_cell_1" colspan="12"><b class="table-wrap-sticky">Семестр 2</b></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">1</td>
+<td class="list_table_cell_2">Б1.В.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/1/">Web-технологии</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">16</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">26</td><td class="list_table_cell_2 align_center">66</td><td class="list_table_cell_1 align_center">108</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зач</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >8.06.2026</div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">2</td>
+<td class="list_table_cell_2">Б1.В.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/2/">Моделирование бизнес-процессов</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">20</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">36</td><td class="list_table_cell_2 align_center">61</td><td class="list_table_cell_1 align_center">117</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Экзамен</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Хор</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >2.07.2026</div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">3</td>
+<td class="list_table_cell_2">Б1.О.05</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/3/">Методы оптимизации</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">16</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">26</td><td class="list_table_cell_2 align_center">66</td><td class="list_table_cell_1 align_center">108</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зач</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >10.06.2026</div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr><td class="list_table_h_2" colspan="3" style="text-align:left">Итого в 2 семестре</td><td class="list_table_h_2 align_center">52</td><td class="list_table_h_2 align_center">0</td><td class="list_table_h_2 align_center">88</td><td class="list_table_h_2 align_center">193</td><td class="list_table_h_2 align_center">333</td><td class="list_table_h_2" colspan="4" style="text-align:left"></td></tr>
+<tr>
+<td class="list_table_cell_1" colspan="12"><b>Переаттестованные дисциплины</b></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">1</td>
+<td class="list_table_cell_2">Б1.О</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span>Алгоритмизация и программирование</span><span style="width:24px;display:inline-block;"></span></div></td>
+<td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_1 align_center"></td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Курсовой проект</div>
+<div >Экзамен</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Отл</div>
+<div >Хор</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >12.09.2025</div>
+<div >26.06.2026</div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">2</td>
+<td class="list_table_cell_2">Б1.О</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span>Базы данных</span><span style="width:24px;display:inline-block;"></span></div></td>
+<td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_1 align_center"></td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Экзамен</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Хор</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >20.06.2026</div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr><td class="list_table_h_n" colspan="3" style="text-align:left">Итого в 2025-2026 учебном году</td><td class="list_table_h_n align_center">292</td><td class="list_table_h_n align_center">170</td><td class="list_table_h_n align_center">202</td><td class="list_table_h_n align_center">765</td><td class="list_table_h_n align_center">1429</td><td class="list_table_h_n" colspan="4" style="text-align:left"></td></tr>
+        </tbody>
+    </table>
+    </div>
+</div>
+<div class="tool-tab-semester" data-tab="tab-semester-2">
+    <div class="table-wrap">
+        <div class="toolbar_2 padding">
+            <table>
+                <tr>
+                    <td>Учебный год: <b style="font-size:9pt">2026-2027</b></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="decanat-summary_controls"><div class="decanat-summary_controls-total"><span>Всего дисциплин с промежуточной аттестацией</span><span>14</span></div><div class="decanat-summary_controls-passed"><span>Сдано</span><span>1</span></div></div>
+    <div class="table-wrap">
+    <table class="decanat-student-plan list_table list_table_line" cellspacing="0">
+        <thead>
+            <tr>
+                <th rowspan="2" class="list_table_h_n table-wrap-sticky">№</th>
+                <th rowspan="2" class="list_table_h_1 break-word">Индекс</th>
+                <th rowspan="2" class="list_table_h_1 break-word">Дисциплина</th>
+                <th colspan="5" class="list_table_h_1 break-word">Часы</th>
+                <th rowspan="2" class="list_table_h_2 break-word">Вид контроля</th>
+                <th rowspan="2" class="list_table_h_2 break-word">Оценка</th>
+                <th rowspan="2" class="list_table_h_2 break-word">Дата</th>
+                <th rowspan="2" class="list_table_h_2 break-word">Преподаватель</th>
+            </tr>
+            <tr>
+                <th class="list_table_h_2 break-word">Лек.</th><th class="list_table_h_2 break-word">Пр.</th>
+                <th class="list_table_h_2 break-word">Лаб.</th><th class="list_table_h_2 break-word">Самост.</th>
+                <th class="list_table_h_2 break-word">Итого</th>
+            </tr>
+        </thead>
+        <tbody
+<tr>
+<td class="list_table_cell_1" colspan="12"><b class="table-wrap-sticky">Семестр 3</b></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">1</td>
+<td class="list_table_cell_2">Б1.В.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/1/">Дизайн и разработка Web-приложений</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">16</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">26</td><td class="list_table_cell_2 align_center">39</td><td class="list_table_cell_1 align_center">81</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Экзамен</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Отл</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >12.09.2025</div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span>Сидоров Сергей Петрович</span><span class="t_small_x t_gray_light_x">старший преподаватель (лек) (экзамен)</span></div><div class="t_gray"><span>Кузнецова Алина Александровна</span><span class="t_small_x t_gray_light_x">ассистент (лаб)</span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">2</td>
+<td class="list_table_cell_2">Б1.В.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/2/">Программирование на Java</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">16</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">26</td><td class="list_table_cell_2 align_center">39</td><td class="list_table_cell_1 align_center">81</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Экзамен</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span>Сидоров Сергей Петрович</span><span class="t_small_x t_gray_light_x">старший преподаватель (лек) (экзамен)</span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">3</td>
+<td class="list_table_cell_2">Б1.О.02</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/3/">Проектный менеджмент</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">20</td><td class="list_table_cell_2 align_center">16</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">72</td><td class="list_table_cell_1 align_center">108</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr><td class="list_table_row_num t_left c_black" colspan="12">Практикум "Человек в современном мире" (дисциплины по выбору)</td></tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">9</td>
+<td class="list_table_cell_2">Б1.О.01.ДВ.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/9/">Информационные технологии Индустрии 4.0</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">36</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">72</td><td class="list_table_cell_1 align_center">108</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">9</td>
+<td class="list_table_cell_2">Б1.О.01.ДВ.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/9/">Политика и управление</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">36</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">72</td><td class="list_table_cell_1 align_center">108</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">9</td>
+<td class="list_table_cell_2">Б1.О.01.ДВ.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/9/">Экономика личных решений</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">36</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">72</td><td class="list_table_cell_1 align_center">108</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr><td class="list_table_h_2" colspan="3" style="text-align:left">Итого в 3 семестре</td><td class="list_table_h_2 align_center">152</td><td class="list_table_h_2 align_center">160</td><td class="list_table_h_2 align_center">220</td><td class="list_table_h_2 align_center">773</td><td class="list_table_h_2 align_center">1305</td><td class="list_table_h_2" colspan="4" style="text-align:left"></td></tr>
+<tr>
+<td class="list_table_cell_1" colspan="12"><b class="table-wrap-sticky">Семестр 4</b></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">1</td>
+<td class="list_table_cell_2">Б1.В.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/1/">Big Data и ETL-системы</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">20</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">36</td><td class="list_table_cell_2 align_center">61</td><td class="list_table_cell_1 align_center">117</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Экзамен</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">2</td>
+<td class="list_table_cell_2">Б1.В.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/2/">UX &amp; UI дизайн</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">20</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">36</td><td class="list_table_cell_2 align_center">88</td><td class="list_table_cell_1 align_center">144</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">3</td>
+<td class="list_table_cell_2">Б2.О</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span>Производственная практика: технологическая (проектно-технологическая) практика</span><span style="width:24px;display:inline-block;"></span></div></td>
+<td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center">4</td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center">212</td><td class="list_table_cell_1 align_center">216</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет с оценкой</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr><td class="list_table_row_num t_left c_black" colspan="12">Практикум "Проектный менеджмент" (дисциплины по выбору)</td></tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">7</td>
+<td class="list_table_cell_2">Б1.О.02.ДВ.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/7/">Проектные ИТ-решения в сфере экономики</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">36</td><td class="list_table_cell_2 align_center">72</td><td class="list_table_cell_1 align_center">108</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет</div>
+<div >Курсовой проект</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span>Морозова Дарья Геннадьевна</span><span class="t_small_x t_gray_light_x">доцент (курсовой проект)</span></div></div></td>
+</tr>
+<tr><td class="list_table_row_num t_left c_black" colspan="12">Блоки дисциплин по выбору  &mdash; Профильные модули по выбору</td></tr>
+<tr><td class="list_table_cell_1 padding_left_xx" colspan="12">Профильный модуль "Управление IT-проектами"</td></tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">8</td>
+<td class="list_table_cell_2">Б1.В.ДВ.01.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/8/">Основы управления IT-сервисами по ITIL</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">20</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">36</td><td class="list_table_cell_2 align_center">88</td><td class="list_table_cell_1 align_center">144</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">10</td>
+<td class="list_table_cell_2">Б1.В.ДВ.01.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/10/">Управление ИТ-продуктом</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">28</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">44</td><td class="list_table_cell_2 align_center">81</td><td class="list_table_cell_1 align_center">153</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Экзамен</div>
+<div >Курсовой проект</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr><td class="list_table_cell_1 padding_left_xx" colspan="12">Профильный модуль "ERP-системы и прикладное программирование"</td></tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">8</td>
+<td class="list_table_cell_2">Б1.В.ДВ.01.02</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/8/">Автоматизация управления предприятием: CRM</a></span><span style="width:24px;display:inline-block;"></span></div></td>
+<td class="list_table_cell_2 align_center">20</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">36</td><td class="list_table_cell_2 align_center">88</td><td class="list_table_cell_1 align_center">144</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">10</td>
+<td class="list_table_cell_2">Б1.В.ДВ.01.02</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/10/">Разработка мобильных приложений на платформе 1С:Предприятие</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">28</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">44</td><td class="list_table_cell_2 align_center">81</td><td class="list_table_cell_1 align_center">153</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Экзамен</div>
+<div >Курсовой проект</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr><td class="list_table_h_2" colspan="3" style="text-align:left">Итого в 4 семестре</td><td class="list_table_h_2 align_center">272</td><td class="list_table_h_2 align_center">20</td><td class="list_table_h_2 align_center">464</td><td class="list_table_h_2 align_center">1170</td><td class="list_table_h_2 align_center">1926</td><td class="list_table_h_2" colspan="4" style="text-align:left"></td></tr>
+<tr><td class="list_table_h_n" colspan="3" style="text-align:left">Итого в 2026-2027 учебном году</td><td class="list_table_h_n align_center">424</td><td class="list_table_h_n align_center">180</td><td class="list_table_h_n align_center">684</td><td class="list_table_h_n align_center">1943</td><td class="list_table_h_n align_center">3231</td><td class="list_table_h_n" colspan="4" style="text-align:left"></td></tr>
+        </tbody>
+    </table>
+    </div>
+</div>
+<div class="tool-tab-semester" data-tab="tab-semester-3">
+    <div class="table-wrap">
+        <div class="toolbar_2 padding">
+            <table>
+                <tr>
+                    <td>Учебный год: <b style="font-size:9pt">2027-2028</b></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <div class="table-wrap">
+    <table class="decanat-student-plan list_table list_table_line" cellspacing="0">
+        <thead>
+            <tr>
+                <th rowspan="2" class="list_table_h_n table-wrap-sticky">№</th>
+                <th rowspan="2" class="list_table_h_1 break-word">Индекс</th>
+                <th rowspan="2" class="list_table_h_1 break-word">Дисциплина</th>
+                <th colspan="5" class="list_table_h_1 break-word">Часы</th>
+                <th rowspan="2" class="list_table_h_2 break-word">Вид контроля</th>
+                <th rowspan="2" class="list_table_h_2 break-word">Оценка</th>
+                <th rowspan="2" class="list_table_h_2 break-word">Дата</th>
+                <th rowspan="2" class="list_table_h_2 break-word">Преподаватель</th>
+            </tr>
+            <tr>
+                <th class="list_table_h_2 break-word">Лек.</th><th class="list_table_h_2 break-word">Пр.</th>
+                <th class="list_table_h_2 break-word">Лаб.</th><th class="list_table_h_2 break-word">Самост.</th>
+                <th class="list_table_h_2 break-word">Итого</th>
+            </tr>
+        </thead>
+        <tbody
+<tr>
+<td class="list_table_cell_1" colspan="12"><b class="table-wrap-sticky">Семестр 5</b></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">1</td>
+<td class="list_table_cell_2">Б1.В.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/1/">Геоинформационные системы</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">16</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">26</td><td class="list_table_cell_2 align_center">66</td><td class="list_table_cell_1 align_center">108</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">2</td>
+<td class="list_table_cell_2">Б1.В.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/2/">Облачные технологии</a></span><span style="width:24px;display:inline-block;"></span></div></td>
+<td class="list_table_cell_2 align_center">28</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">44</td><td class="list_table_cell_2 align_center">81</td><td class="list_table_cell_1 align_center">153</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Экзамен</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr><td class="list_table_h_2" colspan="3" style="text-align:left">Итого в 5 семестре</td><td class="list_table_h_2 align_center">44</td><td class="list_table_h_2 align_center">0</td><td class="list_table_h_2 align_center">70</td><td class="list_table_h_2 align_center">147</td><td class="list_table_h_2 align_center">261</td><td class="list_table_h_2" colspan="4" style="text-align:left"></td></tr>
+<tr>
+<td class="list_table_cell_1" colspan="12"><b class="table-wrap-sticky">Семестр 6</b></td>
+</tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">1</td>
+<td class="list_table_cell_2">Б1.О.05</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span><a class="link_simple" target="_new" title="Рабочая программа дисциплины" href="https://example.test/subject/1/">Информационная безопасность</a></span><a class="icon_moodle" target="_new" href="https://example.test/course/1" title="Онлайн-курс"><img-icon class="icon-moodle"></img-icon></a></div></td>
+<td class="list_table_cell_2 align_center">20</td><td class="list_table_cell_2 align_center">0</td><td class="list_table_cell_2 align_center">36</td><td class="list_table_cell_2 align_center">61</td><td class="list_table_cell_1 align_center">117</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Экзамен</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr><td class="list_table_row_num t_left c_black" colspan="12">Блоки дисциплин по выбору  &mdash; Элективные практики по выбору</td></tr>
+<tr><td class="list_table_cell_1 padding_left_xx" colspan="12">Профильный модуль "Управление IT-проектами"</td></tr>
+<tr>
+<td class="list_table_row_num table-wrap-sticky">6</td>
+<td class="list_table_cell_2">Б2.В.ДВ.01.01</td>
+<td class="list_table_cell_2"><div class="decanat-subject-title"><span>Производственная практика: преддипломная практика по профилю "Управление IT-проектами"</span><span style="width:24px;display:inline-block;"></span></div></td>
+<td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center">6</td><td class="list_table_cell_2 align_center"></td><td class="list_table_cell_2 align_center">318</td><td class="list_table_cell_1 align_center">324</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div >Зачет с оценкой</div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 align_center decanat-controls">
+<div ></div>
+</td>
+<td class="list_table_cell_2 decanat-teachers"><div><div class="t_gray"><span></span></div></div></td>
+</tr>
+<tr><td class="list_table_h_2" colspan="3" style="text-align:left">Итого в 6 семестре</td><td class="list_table_h_2 align_center">20</td><td class="list_table_h_2 align_center">6</td><td class="list_table_h_2 align_center">36</td><td class="list_table_h_2 align_center">379</td><td class="list_table_h_2 align_center">441</td><td class="list_table_h_2" colspan="4" style="text-align:left"></td></tr>
+<tr><td class="list_table_h_n" colspan="3" style="text-align:left">Итого в 2027-2028 учебном году</td><td class="list_table_h_n align_center">64</td><td class="list_table_h_n align_center">6</td><td class="list_table_h_n align_center">106</td><td class="list_table_h_n align_center">526</td><td class="list_table_h_n align_center">702</td><td class="list_table_h_n" colspan="4" style="text-align:left"></td></tr>
+        </tbody>
+    </table>
+    </div>
+</div>
+
+</div>

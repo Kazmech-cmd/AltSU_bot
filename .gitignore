@@ -1,0 +1,27 @@
+# --- секреты (никогда не публиковать) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.local.txt
+
+# --- окружения и кэш ---
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# --- личные данные и мусор ---
+saved_pages/
+*.log
+
+# --- архивы и бэкапы ---
+*.zip
+*.7z
+*.rar
+
+# --- редакторы ---
+.idea/
+.vscode/
